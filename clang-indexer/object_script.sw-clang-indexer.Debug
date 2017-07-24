@@ -1,0 +1,13 @@
+INPUT(
+./debug\ASTIndexer.o
+./debug\DaemonPool.o
+./debug\IndexBuilder.o
+./debug\IndexerContext.o
+./debug\IndexerPPCallbacks.o
+./debug\Mutex.o
+./debug\NameGenerator.o
+./debug\Process.o
+./debug\TUIndexer.o
+./debug\Util.o
+./debug\main.o
+);

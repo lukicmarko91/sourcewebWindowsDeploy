@@ -1,0 +1,13 @@
+INPUT(
+./release\ASTIndexer.o
+./release\DaemonPool.o
+./release\IndexBuilder.o
+./release\IndexerContext.o
+./release\IndexerPPCallbacks.o
+./release\Mutex.o
+./release\NameGenerator.o
+./release\Process.o
+./release\TUIndexer.o
+./release\Util.o
+./release\main.o
+);
