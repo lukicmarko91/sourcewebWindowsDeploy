@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
     source_directory = 'data/'
     output_file = 'data_package.zip'
-    file_extension = '.txt'
+    file_extension = '.dll'
 
     zip_files(source_directory, output_file, file_extension)
     result = upload_release_asset(token, repo, tag_name, output_file)
