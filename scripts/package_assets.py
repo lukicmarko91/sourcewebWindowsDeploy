@@ -34,7 +34,8 @@ if __name__ == '__main__':
     repo = sys.argv[2]   # Repository name, e.g., 'username/repo'
     tag_name = sys.argv[3]  # Tag name from the release
 
-    source_directory = 'data/'
+    source_directory = '.'
+    print(os.getcwd())
     output_file = 'data_package.zip'
     file_extension = '.dll'
 
