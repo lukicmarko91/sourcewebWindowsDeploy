@@ -26,5 +26,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO: ${{ github.repository }}
           TAG_NAME: ${{ github.event.release.tag_name }}
-        run: python scripts/release.py ${{ secrets.GITHUB_TOKEN }} ${{ github.repository }} ${{ github.event.release.tag_name }}
+        run: python scripts/package_assets.py ${{ secrets.GITHUB_TOKEN }} ${{ github.repository }} ${{ github.event.release.tag_name }}
 
